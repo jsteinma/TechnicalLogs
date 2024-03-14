@@ -1,4 +1,9 @@
 # Viewing/Adding a Published MapService to ArcGIS Online
+> [!CAUTION]
+> The server must be running prior to accessing the REST Services Directory as well as any maps referencing its data. If maps or
+> layers containing the data are opened prior to starting the server (and configuring IP of variable IP servers), the files can
+> get corrupted.
+
 > [!NOTE]
 > These steps can be completed following a MapService being published to the server.
 >

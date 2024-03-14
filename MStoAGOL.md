@@ -11,9 +11,9 @@
 
 After publishing map service, you should recieve a link to the ArcGIS REST Services.
 
-The link will be similar to **'https://{{IPAddress}{gisserver.domain}}/arcgis/rest/services'**, where {IPAddress} is the IP address 
+The link will be similar to **'https://(IPAddress)(gisserver.domain)/arcgis/rest/services'**, where (IPAddress) is the IP address 
 used for your server/virtual machine (External IP if using Google Cloud Platform to host the Virtual Machine), 
-and {gisserver.domain} is the server name and domain if not using an IP address.
+and (gisserver.domain) is the server name and domain if not using an IP address.
 
 The AG REST Services Directory will look similar to this:
 
@@ -29,9 +29,9 @@ Once here, you will see a page similar to this:
 
 <kbd>![image](https://github.com/jsteinma/TechnicalLogs/assets/146376062/049280a6-22d6-4af1-b79c-0e08f2488c39)</kbd>
 
-An example URL: https://{X}/arcgis/rest/services/{MapServerName}/MapServer
+An example URL: https://(X)/arcgis/rest/services/(MapServerName)/MapServer
 
-In this example, the [MapServerName] would be SampleWorldCities, as this is our published MapServer.
+In this example, the (MapServerName) would be SampleWorldCities, as this is our published MapServer.
 
 # Viewing The Map
 
@@ -58,7 +58,7 @@ To view a map briefly to see the data, select 'ArcGIS Onilne Map Viewer' found u
 <kbd>![image](https://github.com/jsteinma/TechnicalLogs/assets/146376062/17ba31cf-04b6-404d-9f10-e29759f6aac5)</kbd>
 
 3. Once here, enter the link to the MapServer from the ArcGIS REST Services Directory site. It should look similar
-   to this: **https://{X}/arcgis/rest/services/{X}/MapServer**
+   to this: **https://(X)/arcgis/rest/services/(X)/MapServer**
 4. The layer type should automatically be selected as 'ArcGIS Server web service'.
 5. Click 'Add to map'.
 6. Once the data is added, you can save it as a 'Web Map'.
@@ -73,7 +73,7 @@ To view a map briefly to see the data, select 'ArcGIS Onilne Map Viewer' found u
 <kbd>![image](https://github.com/jsteinma/TechnicalLogs/assets/146376062/17ba31cf-04b6-404d-9f10-e29759f6aac5)</kbd>
 
 4. Once here, enter the link to the MapServer from the ArcGIS REST Services Directory site. It should look similar
-   to this: **https://{X}/arcgis/rest/services/{X}/MapServer?f=pjson**
+   to this: **https://(X)/arcgis/rest/services/(X)/MapServer?f=pjson**
    - If this link does not work, remove the 'p' in 'f=pjson' at the end of the link and re-add it.
 5. The layer type should automatically be selected as 'ArcGIS Server web service'.
 6. Click 'Add to map'.
@@ -87,7 +87,7 @@ Note: any REST Directory links using a variable IP address will need to be chang
 1. In your MapServer REST Service Directory site, click the option 'WMS' under the page pathway:
 <kbd>![image](https://github.com/jsteinma/TechnicalLogs/assets/146376062/d0b68cc2-0c60-4854-9208-3e04c468128e)</kbd>
 
-  - The link to this page should look similar to this: **https://{X}/arcgis/services/{X}/MapServer/WMSServer?request=GetCapabilities&service=WMS**
+  - The link to this page should look similar to this: **https://(X)/arcgis/services/(X)/MapServer/WMSServer?request=GetCapabilities&service=WMS**
 
 2. In ArcGIS Online, click 'Map'. This will open a new map.
 3. Once inside, under 'Layers', use the dropdown arrow beside 'Add' and click on 'Add layer from URL':
@@ -108,7 +108,7 @@ Note: any REST Directory links using a variable IP address will need to be chang
 
 <kbd>![image](https://github.com/jsteinma/TechnicalLogs/assets/146376062/381f4f3b-f1bf-4858-84cc-8ec8286ab2ef)</kbd>
 
-  - The link to this page should look similar to this: **https://{X}/arcgis/rest/services/{X}/MapServer/0** . Notice the /0 on the end.
+  - The link to this page should look similar to this: **https://(X)/arcgis/rest/services/(X)/MapServer/0** . Notice the /0 on the end.
 2. In ArcGIS Online, click 'Map'. This will open a new map.
 3. Once inside, under 'Layers', use the dropdown arrow beside 'Add' and click on 'Add layer from URL':
 

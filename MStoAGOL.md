@@ -1,11 +1,11 @@
-# Viewing/Adding a Published MapService to ArcGIS Online
+# Viewing/Adding a Published Map Service to ArcGIS Online
 > [!CAUTION]
 > The server must be running prior to accessing the REST Services Directory as well as any maps referencing its data. If maps or
 > layers containing the data are opened prior to starting the server (and configuring IP of variable IP servers), the files can
 > get corrupted.
 
 > [!NOTE]
-> These steps can be completed following a MapService being published to the server.
+> These steps can be completed following a Map Service being published to the server.
 >
 > Steps on how to publish from ArcGIS Pro can be found [here](https://www.youtube.com/watch?v=nIRlZN9ECwY&t=5s).
 
@@ -22,7 +22,7 @@ The AG REST Services Directory will look similar to this:
 > [!NOTE]
 > This is not the link to use when adding this data to ArcGIS Online.
 
-Because a MapServer was published to the server, prior to adding the data to AG Online we need to click on the 
+Because a Map Service was published to the server, prior to adding the data to AG Online we need to click on the 
 specific MapServer subfolder link under Services. In the photo above, this is called "SampleWorldCities".
 
 Once here, you will see a page similar to this: 

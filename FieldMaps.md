@@ -30,3 +30,9 @@ Settings:
 - Can also set the manual location settings (select warning when manual location is used).
 - Can set size of uploading photo to smaller to help with sync efficiency.
 - Can set the detail level of the offline map shown to mobile users.
+
+## Collecting on Android Device
+- Ensure when opening the map, turn location on and allow it for 'While using the app'
+- If issues occur when taking a photo in the form, follow on of the two options:
+  1. Remove the photo and add it last prior to submitting the form.
+  2. Remove the photo, take it on your normal camera app and then attach as a file to the form.

@@ -18,6 +18,6 @@ To check thics, we can edit the style options of the layer to see if any points 
 
 ### Saving the map
 1. Once you have set the desired layer properties, to save the map for future use select the 'Save and Open' icon on the left side, then click 'Save As'. 
-2. This will then take you through the saving process and where you can then choose 'save'.
+2. This will then take you through the saving process and where you can then choose 'save'. This process will save the data and map as a **Web Map**.
 > [!NOTE]
 > By referencing the survey data using this method, the data will be updated automatically if new responses are made.

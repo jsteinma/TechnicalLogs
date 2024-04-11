@@ -92,7 +92,7 @@ within the curly brackets, in front of the field names. The corrected input and 
 ## 5. Semicolons
 
 Semi-colons in arcade language aren’t always necessary and needed, and are typically used in part for structure, readability and within multi-line 
-expressions. More on Arcade statements can be read [here](https://developers.arcgis.com/arcade/guide/statements/)
+expressions. More on Arcade statements can be read [here](https://developers.arcgis.com/arcade/guide/statements/).
 
 In the following two images, differences in structure due to the presence/absence of semicolons at the ends of statements can be seen. Although the 
 structures differ, both scripts will execute the same way and display the exact same output.
